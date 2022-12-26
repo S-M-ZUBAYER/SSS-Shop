@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     // const { user, logout } = useContext(AuthContext)
     return (
-        <div className="sticky top-0 z-40">
-            <div className="navbar  text-slate-400 bg-white">
+        <div className="sticky top-0 z-40 bg-gradient-to-t from-blue-900 via-slate-900 to-black">
+            <div className="navbar  text-slate-400">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             <li><Link to='/contact'>Contact</Link></li>
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl"><img className="w-8 h-8 rounded-xl mr-2" src='https://i.ibb.co/LCFZm0g/Cricket-Lovere.webp' ></img>SSS Shop</Link>
+                    <Link className="btn btn-ghost normal-case text-xl"><img className="w-8 h-8 rounded-xl mr-2" src='https://i.ibb.co/rx3y8PN/sss-logo.jpg' ></img>SSS Shop</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
